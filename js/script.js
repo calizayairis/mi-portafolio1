@@ -1,2 +1,5 @@
 console.log('Bienvenido');
-alert('Hola, gracias por visitarme');
+
+document.querySelector('h1').addEventListener('click', function() {
+    alert('Hola, gracias por visitarme');
+});
